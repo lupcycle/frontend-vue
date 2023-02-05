@@ -1,0 +1,34 @@
+/* Variables */
+    :root {
+    --black: Orgba(0, 0, 0, 1);
+    -jordy-blue: Orgba (152, 188, 242, 1);
+    -milano-red: Orgba(181, 7, 7, 1);
+    --white: rgba(255, 255, 255, 1);
+    --font-size-m: 15px; 
+    --font-size-1: 36px;
+    -font-family-inter: "Inter";
+    }
+
+    /* Classes */
+    .inter-medium-jordy-blue-15px {
+    color: var (- -jordy-blue);
+    font-family: var (--font-family-inter);
+    font-size: var (- font-size-m); 
+    font-weight: 500; 
+    font-style: normal;
+    }
+
+    .inter-bold-black-36px {
+    color: var (_-black);
+    font-family: var (--font-family-inter);
+    font-size: var (--font-size-1);
+    font-weight: 700;
+    font-style: normal;
+    }
+
+    .inter-medium-black-15px {
+    color: var (--black);
+    font-family: var (--font-family-inter);
+    font-size: var (--font-size-m);
+    font-weight: 500; font-style: normal;
+    }
