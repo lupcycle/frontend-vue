@@ -2,7 +2,7 @@
   
 </template>
 
-<script lang="ts">
+<script setup>
 export default {
   data() {
     return {
@@ -10,9 +10,6 @@ export default {
     }
   }
 }
-
-
-
 
 </script>
 

@@ -2,7 +2,9 @@
   <screen v-bind="screenData" /> 
  </template>
  
- <script>
+ <script lang="ts">
+  import Screen from './component/Screen.vue';
+
   export default {
   name: "App",
   components: {
